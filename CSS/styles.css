@@ -1,0 +1,28 @@
+h1 {
+    color: purple;
+}
+
+h2 {
+    color: rgb(64, 211, 113);
+}
+
+/* ID selector - select a specific element that matches the specified ID*/
+#p1 {
+    color: yellow;
+}
+
+/* class selector, selects all elements with the specified classname */
+.paragraphs {
+    background-color: green;
+}
+
+* {
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2 {
+    margin-top: 100px;
+    text-align: center;
+    padding-left: 10px;
+    border: 5px solid orange;
+}

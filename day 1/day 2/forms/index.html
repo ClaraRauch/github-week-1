@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <br>
+    <h1>Just IT Software Engineering Level 4 Apprenticeship</h1>
+    <br>
+    <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260&dpr=1">
+    <form action="./confirmation.html">
+        <label for="firstName">First name:
+            <input id="firstName" type="text" placeholder="First name...">
+        </label>
+        <br>
+        <br>
+        <label for="lastName">Last name:
+            <input id="lastName" type="text" placeholder="Last name...">
+        </label>
+        <br>
+        <br>
+        <label for="pass">Password:
+            <input id="pass" type="password" maxlength="12" required>
+        </label>
+        <br>
+        <br>
+        <label for="email">Email:
+            <input id="email" type="email" placeholder="email@email.com">
+        </label>
+        <br>
+        <br>
+        <label="phone">Phone Number:
+            <input id="phone" type="tel" placeholder="1234567891011">
+            </label>
+            <br>
+            <br>
+            <label for="dob">Date of Birth:
+                <input id="dob" type="date" placeholder="dd/mm/yyyy">
+            </label>
+            <br>
+            <br>
+            <label for "languages" >Languages you speak:
+                <select name="" id="languages" required>
+                    <option value="english">English</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="french">French</option>
+                    <option value="german">German</option>
+                    <option value="italian">Italian</option>
+                    <option value="mandarin">Mandarin</option>
+                    <option value="korean">Korean</option>
+                    <option value="arabic">Arabic</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <input type="textarea" placeholder="Additional Languages...">
+            <br>
+            <br>
+            <div>CV upload:</div>
+            <input type="file">
+            <br>
+            <br>
+            <fieldset>
+                <legend>Choose your preferred office location</legend>
+
+                <input type="radio" id="london" name="location" value="L" />
+                <label for="london">London</label>
+
+                <input type="radio" id="manchester" name="location" value="M" />
+                <label for="manchester">Manchester</label>
+
+                <input type="radio" id="glasgow" name="location" value="G" />
+                <label for="glasgow">Glasgow</label>
+            </fieldset>
+            <br>
+            <label for="completed all sections">Please check you have completed all sections:
+                <input type="checkbox">
+            </label>
+            <br>
+            <br>
+            <input type="reset">
+            <input type="submit" value="sign up">
+            <br>
+    </form>
+</body>
+
+</html>

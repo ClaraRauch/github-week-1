@@ -1,0 +1,12 @@
+* {
+    background-color: rgb(250, 250, 226);
+    color: navy;
+    font-family:'Times New Roman', Times, serif;
+}
+
+form {
+    margin: 30px;
+    padding-left: 50px;
+}
+
+
